@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../elements/css.ejs">
+    <link rel="stylesheet" href="../../../public/frontend/css/custom.css">
+
+</head>
+<body>
+    <%- include ./css.ejs -%>
+
+    <header id="header" class="transparent-header dark header-size-custom" data-sticky-shrink="false" data-sticky-class="semi-transparent">
+        <div id="header-wrap">
+            <div class="container">
+                <div class="header-row justify-content-lg-between">
+    
+                    <!-- Logo
+                    ============================================= -->
+                    <div id="logo" class="col-auto me-lg-0 order-lg-2">
+                        <a href="demo-writer.html" class="standard-logo"><img src=`${data.logo.logo}`  alt=""></a>
+                    </div><!-- #logo end -->
+    
+                    <div id="primary-menu-trigger">
+                        <svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+                    </div>
+    
+                    <!-- Primary Navigation
+                    ============================================= -->
+                    
+    
+                    <nav class="primary-menu not-dark col-lg-auto order-lg-3">
+    
+                        <ul class="menu-container justify-content-lg-end">
+                            <% listMenu.forEach((item) => { %>
+                                <li class="menu-item"><a class="menu-link" href="<%= item.link %>   "><div><%= item.name %></div></a></li>
+                            
+                                <% }) %>
+
+                           
+                                
+                        <a class="primary-menu not-dark col-lg-auto order-lg-3" href="#"><i class="fa-regular fa-cart-shopping">My Cart</i></a>
+                            
+    
+                    </nav><!-- #primary-menu end -->
+    
+                </div>
+            </div>
+        </div>
+        <div class="header-wrap-clone"></div>
+    </header>
+</body>
+</html>

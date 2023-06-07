@@ -1,0 +1,17 @@
+<% 
+    selectVerify = (items) => {
+        let xhtmlVerify = '';
+
+        items.forEach((item) =>{
+            let verify = (is_varified == 0) ? "Not Verify" : `"VerifiedOK";
+
+            xhtmlVerify += `
+            
+            <a href="">${verify}</a>
+            `;
+            
+        });
+        return xhtmlVerify;
+    }    
+%>
+

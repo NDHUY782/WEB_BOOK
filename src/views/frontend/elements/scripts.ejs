@@ -1,0 +1,76 @@
+  <script src="/frontend/js/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="/frontend/js/bootstrap.bundle.min.js"></script>
+  <!-- overlayScrollbars -->
+  <script src="/frontend/js/jquery.overlayScrollbars.min.js"></script>
+  <!-- AdminLTE App -->
+  <script src="/frontend/js/adminlte.js"></script>
+  <!-- Alertify -->
+  <script src="/frontend/js/alertify.min.js"></script>
+  <!-- Custom -->
+  <script src="/frontend/js/custom.js"></script>
+  <!-- Custom -->
+  <script src="/frontend/js/main.js"></script>
+  <!--Custom Ajax-->
+  <script src="/frontend/js/customAjax.js"></script> 
+  
+  <!-- Dropzone -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/min/dropzone.min.js"></script>
+  <!-- JavaScripts
+	============================================= -->
+	<script src="/frontend/js/jquery.js"></script>
+	<script src="/frontend/js/plugins.min.js"></script>
+	<script src="/frontend/demos/writer/js/hover3d.js" ></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="/frontend/js/functions.js"></script>
+
+	<script>
+
+		jQuery(document).ready( function(){
+
+			if( !jQuery('body').hasClass('device-touch') ) {
+
+				var lFollowX = 0,
+					lFollowY = 0,
+					x = 0,
+					y = 0,
+					friction = 1 / 30;
+
+				function moveBackground() {
+					x += (lFollowX - x) * friction;
+					y += (lFollowY - y) * friction;
+
+					translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.1)';
+
+					jQuery('.move-bg').css({
+						'-webit-transform': translate,
+						'-moz-transform': translate,
+						'transform': translate
+					});
+
+					window.requestAnimationFrame(moveBackground);
+				}
+
+				jQuery(window).on('mousemove click', function(e) {
+
+					var lMouseX = Math.max(-100, Math.min(100, jQuery(window).width() / 2 - e.clientX));
+					var lMouseY = Math.max(-100, Math.min(100, jQuery(window).height() / 2 - e.clientY));
+					lFollowX = (10 * lMouseX) / 100; // 100 : 12 = lMouxeX : lFollow
+					lFollowY = (10 * lMouseY) / 100;
+
+				});
+
+				moveBackground();
+
+				jQuery(".book-wrap").hover3d({
+					selector: ".book-card",
+					shine: false,
+				});
+
+			}
+
+		});
+
+	</script>

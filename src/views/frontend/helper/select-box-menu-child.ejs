@@ -1,0 +1,13 @@
+
+<% 
+    selectBoxMenuChildHelper = (name, categoryItems, optionSelected = '') => {
+        let xhtml = '';
+        categoryItems.forEach((item) => {
+            let selected = (item.id == optionSelected) ? `selected="selected"` : '';
+            xhtml += `<option value="${item.id}" ${selected}>${item.name_child}</option>`
+        })
+
+        return `<select id="${name}" name="${name}" class="custom-select custom-select-sm">${xhtml}</select>`;
+    }    
+%>
+

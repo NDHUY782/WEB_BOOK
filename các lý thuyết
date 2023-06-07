@@ -1,0 +1,25 @@
+level 1 lưu user,pas
+level 2 lưu thêm {
+    role {admin,customer}
+}
+
+level 3 {
+    user
+    password
+    role{
+        admin,
+        customer
+    }
+    boss
+}
+
+level 4 {
+    role{
+        admin{
+            note
+            access
+        },
+        customer
+    }
+    boss
+}

@@ -1,0 +1,209 @@
+<% 
+	const collection   = 'product'
+	const linkPrefix   = systemConfig.prefixAdmin + `/${collection}/`
+	const folderUpload = 'uploads/products/'
+%>
+<% include ../../backend/helper/status.ejs %>
+<% include ../../backend/helper/source_by.ejs %>
+<% include ../../backend/helper/ordering.ejs %>
+<% include ../../backend/helper/price.ejs %>
+<% include ../../backend/helper/discount.ejs %>
+<% include ../../backend/helper/filter-status.ejs %>
+<% include ../../backend/helper/pagination.ejs %>
+<% include ../../backend/helper/highlight-char.ejs %>
+<% include ../../backend/helper/image.ejs %>
+<% include ../../backend/helper/select-box-ajax.ejs %>
+<% include ../../backend/helper/select-box-default.ejs %>
+<% include ../../backend/helper/sort-list.ejs %>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Top Bar
+		============================================= -->
+		<div id="top-bar" class="py-3 text-center bg-color-light">
+			<div class="container clearfix">
+				<div class="d-md-flex justify-content-md-between align-items-md-center">
+					<h4 class="mb-2 mb-md-0 h6 fw-normal">Free Shipping on every order <span class="mx-2 text-black-50">&middot;</span> 30 Days Return</h4>
+
+					<h4 class="mb-0 h6 fw-normal">Need Help? Call us at <a class="color" href="tel:+00-11-22-7541"><u class="fw-medium">0388173342</u></a> or <a class="color" href="mailto:huynguyen07080401@gmail.com"><u class="fw-medium">email</u></a> us.</h4>
+				</div>
+			</div>
+		</div><!-- #top-bar end -->
+
+		
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap py-0 overflow-visible">
+
+				<div class="section bg-color dark overflow-visible mt-0">
+					<div class="container">
+
+						<!-- 1. Section
+						============================================= -->
+						<div class="single-product py-lg-3">
+
+							<!-- Product
+							============================================= -->
+							<div class="product">
+
+								<div class="row">
+
+									<!-- Product Image
+									============================================= -->
+									<div class="col-md-6">
+										<div class="row align-items-start gutter-30" data-lightbox="gallery"> <!-- .align-items-center for mobile Bugs fixed -->
+											<a href="demo-furniture-single.html"><img src="/<%= folderUpload%><%=data.avatar%>" alt="Light Grey Sofa"></a>
+											
+										</div>
+									</div>
+
+									<!-- Product Description
+									============================================= -->
+									<div class="col-md-6 product-desc p-lg-5 px-4 py-0 mt-5 mt-md-0 content-sticky" >
+
+										<!-- Product Title
+										============================================= -->
+										<h2 class="mb-3 fw-normal text-white"><%=data.name%></h2>
+
+										<!-- Product Price
+										============================================= -->
+                                       
+
+										
+											
+											<h3 class="h2 mb-5 fw-medium text-white"><%= data.price %></h3>
+
+										
+
+										<!-- Product Single - Quantity & Cart Button
+										============================================= -->
+										<form class="cart mb-0 d-flex align-items-center" method="post" enctype='multipart/form-data'>
+											<div class="quantity position-relative mb-3 clearfix">
+												<input type="button" value="-" class="minus">
+												<input type="number" step="1" min="1" max="3" name="quantity" value="1" title="Qty" class="qty" />
+												<input type="button" value="+" class="plus">
+												<div class="clear"></div>
+												<span class="stock-in">Only 3 Stocks Available</span>
+												<span class="stock-out">Ooops! There is no more Stock</span>
+											</div>
+											<button type="submit" class="add-to-cart button button-large fw-medium color button-light bg-white px-lg-4 add-to-cart m-0 mb-3"><i style="position: relative; top: -2px;"><a href="/product_detail"> Add to cart</a></i></button>
+										</form><!-- Product Single - Quantity & Cart Button End -->
+
+
+										<!-- Line
+										============================================= -->
+										<div class="line my-5"></div>
+
+										<!-- Product Toggle - Overview
+										============================================= -->
+										<div class="pb-4 qv-toogle">
+											<a href="#" class="font-primary d-flex align-items-center mb-0 text-white" data-bs-toggle="collapse" data-bs-target="#overview" aria-expanded="true" aria-controls="overview">Overview
+												<i class="icon-line-plus ms-auto"></i>
+												<i class="icon-line-minus ms-auto"></i>
+											</a>
+											<div class="collapse show" id="overview">
+												<p class="op-06 fw-normal my-2">Libero velit id eaque ex quae laboriosam nulla optio doloribus! Perspiciatis, libero, neque, perferendis at nisi optio dolor. Uniquely extend diverse meta-services without low-risk high-yield paradigms. Synergistically envisioneer equity invested e-services for innovative technology. Objectively generate.</p>
+											</div>
+										</div>
+
+										<!-- Product Toggle - Materials
+										============================================= -->
+										<div class="pb-4 qv-toogle">
+											<a href="#" class="font-primary d-flex align-items-center mb-0 collapsed text-white" data-bs-toggle="collapse" data-bs-target="#materials" aria-expanded="false" aria-controls="materials">Materials
+												<i class="icon-line-plus ms-auto"></i>
+												<i class="icon-line-minus ms-auto"></i>
+											</a>
+											<div class="collapse" id="materials">
+												<p class="op-06 fw-normal my-2">Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+											</div>
+										</div>
+
+										<!-- Product Toggle - Installation & Warrenty
+										============================================= -->
+										<div class="pb-4 qv-toogle">
+											<a href="#" class="font-primary d-flex align-items-center mb-0 collapsed text-white" data-bs-toggle="collapse" data-bs-target="#installation" aria-expanded="false" aria-controls="installation">Installation &amp; Warrenty
+												<i class="icon-line-plus ms-auto"></i>
+												<i class="icon-line-minus ms-auto"></i>
+											</a>
+											<div class="collapse" id="installation">
+												<p class="op-06 fw-normal my-2">Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+											</div>
+										</div>
+
+										<!-- Product Toggle - Returns & Cancellations
+										============================================= -->
+										<div class="pb-4 qv-toogle">
+											<a href="#" class="font-primary d-flex align-items-center mb-0 collapsed text-white" data-bs-toggle="collapse" data-bs-target="#return" aria-expanded="false" aria-controls="return">Returns &amp; Cancellations
+												<i class="icon-line-plus ms-auto"></i>
+												<i class="icon-line-minus ms-auto"></i>
+											</a>
+											<div class="collapse" id="return">
+												<p class="op-06 fw-normal my-2">Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+											</div>
+										</div>
+
+									</div>
+								</div>
+
+							</div>
+
+						</div><!-- Section End -->
+
+					</div>
+
+				</div>
+
+				<div class="relate-product">
+                    <p class="title">SẢN PHẨM LIÊN QUAN</p>
+                    <div class="row product_list">
+                        <!-- {{#each productList}}
+                        <div class="card col">
+                            <a href="/chi-tiet/{{this.slug}}">
+                
+                                <img src="{{this.image}}" class="card-img-top" alt="...">
+                            </a>
+                            <div class="body" style="min-height:150px !important">
+                
+                                <div id="hover-box" style="display: none;"></div>
+                                <a href="/chi-tiet/{{this.slug}}" class="text-center card-title text-name"
+                                    data-id="{{this.name}}">{{this.name}}</a>
+                                {{#if this.salePrice}}
+                                <p class="text-center card-text text-salePrice">{{convertPrice this.salePrice}}</p>
+                                <p class="text-center card-text text-price price-old">{{convertPrice this.price}}</p>
+                                {{else}}
+                                <p class="text-center card-text text-price">{{convertPrice this.price}}</p>
+                                {{/if}}
+                            </div>
+                        </div>
+                        {{/each}} -->
+                    </div>
+                </div>
+
+				
+
+			</div>
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="bg-color op-07 h-op-1">
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#FFF" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><polygon points="48 208 128 128 208 208 48 208" opacity="0.2"></polygon><polygon points="48 208 128 128 208 208 48 208" fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polygon><polyline points="48 128 128 48 208 128" fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline></svg>
+	</div>
+
+	<!-- JavaScripts
+	============================================= -->
+	
+</body>
+</html>

@@ -1,0 +1,12 @@
+
+<% 
+    priceHelper = (id, price, linkPrefix) => {
+        let xhtmlStatus = '';
+        let link = `${linkPrefix}change-price/` + id + "/";
+        xhtmlStatus = `<a><input id="inputOrdering-${id}" type="number" onchange="changeOrdering('${link}', '${id}')" name="items-price" value="${price}"class="text-center price"></a>`
+
+        return xhtmlStatus;
+
+    }    
+%>
+

@@ -1,0 +1,12 @@
+<% 
+    imageHelper = (folder, imageName, className = 'img_List') => {  
+        let xhtml = '';
+        if(!imageName){
+            imageName = 'z.png'
+        }
+        xhtml = `<img id="imgUpload" class="${className}" src="${folder + imageName}" alt="${imageName}"/>`
+        return xhtml;
+    }    
+%>
+
+

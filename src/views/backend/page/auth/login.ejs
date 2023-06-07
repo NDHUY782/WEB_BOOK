@@ -1,0 +1,63 @@
+
+<% 
+        if (typeof message !== 'undefined') {
+            %>
+                <p style="color: green;" ><%= message %></p>
+            <%
+
+        }
+        else {
+
+        }
+%>
+
+<%- include ../../elements/css.ejs -%>
+	<div id="wrapper" class="clearfix">
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap py-0">
+
+				<div class="section move-bg min-vh-100 w-100 position-absolute m-0 p-0" style="background: url('demos/writer/images/login.jpg') center center no-repeat; background-size: cover;"></div>
+
+				<div class="section bg-transparent min-vh-100 d-flex m-0 p-0">
+					<div class="vertical-middle">
+						<div class="container-fluid py-5 py-lg-0 mx-auto">
+							<div class="card mx-auto dark rounded border border-dark shadow-lg" style="max-width: 540px; background-color: rgba(30,30,30,0.9)">
+								<div class="card-body mx-auto py-5" style="max-width: 70%;">
+
+
+									<form id="login-form" name="login-form" class="mb-0 row" action="/auth/login" method="post">
+
+										<div class="col-12">
+											<input type="email" name="email" required placeholder="Enter mail">
+											<br><br>
+										</div>
+
+										<div class="col-12 mt-4">
+											<input type="password" name="password" required placeholder="Enter password">
+											<br><br>
+										</div>
+										<div class="col-12 mt-4">
+											<div class="remember">
+											<input type="submit" value="Login">
+											<br><br>
+											</div>
+										</div>
+									</form>
+								</div>
+								
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		
+
+	</div><!-- #wrapper end -->
+
+

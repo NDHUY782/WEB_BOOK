@@ -1,0 +1,35 @@
+
+<% 
+        if (typeof message !== 'undefined') {
+            %>
+                <p style="color: green;" ><%= message %></p>
+            <%
+
+        }
+        else {
+
+        }
+%>
+<h1 >Quên Mật Khẩu</h1>
+ <div class="header-bottom">
+	 <div class="header-right w3agile">
+		 <div class="header-left-bottom agileinfo">
+
+		  <form action="/forget" method="post">
+				<input type="email" name="email" required placeholder="Enter mail">
+				<br><br>
+				<div class="remember">
+					<div>
+						<h6><a href="/register ">Đăng ký</a></h6>
+					</div>
+				<input type="submit" value="Send Reset Link">
+				<br><br>
+		 </form>	
+	 </div>
+   
+ </div>
+</div>
+
+
+
+
