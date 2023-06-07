@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "64671e91d76e268d52b0226d"
+  },
+  "name": "Tình Yêu Không Có Lỗi",
+  "status": "active",
+  "ordering": 1,
+  "content": "<p>Bằng giọng điệu ch&acirc;n th&agrave;nh pha lẫn h&agrave;i hước, Maeya kể những c&acirc;u chuyện rất gần gũi, ch&acirc;n thực m&agrave; bạn đ&atilde; hoặc sẽ trải qua: cuộc sống độc th&acirc;n với những lời hỏi han thiếu tế nhị, nỗi đau khi thất t&igrave;nh, cuộc chia ly của c&ocirc; bạn th&acirc;n, c&aacute;c ch&agrave;ng trai đến rồi đi v&agrave; để lại những b&agrave;i học &yacute; nghĩa&hellip; Song song đ&oacute; l&agrave; h&agrave;nh tr&igrave;nh chữa l&agrave;nh tr&aacute;i tim tổn thương, vượt qua nỗi buồn v&agrave; trưởng th&agrave;nh hơn.</p>\r\n",
+  "avatar": "78MizPxr9V.jpg",
+  "id_category": "641d9bf350313506f4865ccf",
+  "created": {
+    "user_id": 0,
+    "user_name": "admin",
+    "time": {
+      "$date": "2023-05-19T07:00:33.986Z"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "646ecf4c6b394eaaf7c426dd"
+  },
+  "name": "yêuuuq",
+  "status": "active",
+  "ordering": 1,
+  "content": "",
+  "avatar": "sFyzcJzSKQ.jpg",
+  "id_category": "641d9bf350313506f4865ccf",
+  "created": {
+    "user_id": 0,
+    "user_name": "admin",
+    "time": {
+      "$date": "2023-05-25T03:00:28.419Z"
+    }
+  },
+  "__v": 0
+}]

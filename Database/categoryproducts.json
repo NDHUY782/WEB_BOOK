@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "6437902636fb749375db06d6"
+  },
+  "name": "Triết Học",
+  "status": "active",
+  "ordering": 1,
+  "content": "",
+  "createdAt": {
+    "$date": "2023-04-13T05:16:22.792Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-14T07:54:06.369Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6455c4275cc8a10293fa26d4"
+  },
+  "name": "Toán ",
+  "status": "active",
+  "ordering": 1,
+  "content": "",
+  "createdAt": {
+    "$date": "2023-05-06T03:06:15.472Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-14T07:55:05.072Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6455c4325cc8a10293fa26e1"
+  },
+  "name": "Lý",
+  "status": "active",
+  "ordering": 1,
+  "content": "",
+  "createdAt": {
+    "$date": "2023-05-06T03:06:26.567Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-14T07:55:12.195Z"
+  },
+  "__v": 0
+}]

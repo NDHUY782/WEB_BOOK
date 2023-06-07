@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "64226ed1a7046cbd5b58cd5a"
+  },
+  "__v": 0,
+  "footer": {
+    "copyright": "nguyen duc huy",
+    "phone": "0388173342",
+    "location": "hhhhhhhhhhh",
+    "email": "h@gmail.com"
+  },
+  "logo": {
+    "brand": "duchuy",
+    "logo": "dfaso6eFBf.png"
+  },
+  "social": {
+    "facebook": "https://drive.google.com/drive/u/1/folders/1mNpv9EMuxsAmWDmL-Zi87XS8osszpbpN",
+    "zalo": "https://drive.google.com/drive/u/1/folders/1mNpv9EMuxsAmWDmL-Zi87XS8osszpbpN",
+    "instagram": "https://drive.google.com/drive/u/1/folders/1mNpv9EMuxsAmWDmL-Zi87XS8osszpbpN"
+  }
+}]

@@ -1,0 +1,150 @@
+[{
+    "_id": {
+      "$oid": "647815d51c2be5cb05c851d8"
+    },
+    "name": "Lâm Vy",
+    "password": "$2b$10$jRRcKe04qJBVSdqYISQymeHKJnIiq2K2UtDYeK9jm9QD.mZIqQcKy",
+    "avatar": "1685591509088-350106671_1414519382696790_2669178785517809203_n.jpg",
+    "email": "vy.calinus@gmail.com",
+    "mobile": "0931810846",
+    "is_admin": 1,
+    "is_varified": 1,
+    "token": "",
+    "createdAt": {
+      "$date": "2023-06-01T03:51:49.149Z"
+    },
+    "updatedAt": {
+      "$date": "2023-06-05T05:06:16.097Z"
+    },
+    "__v": 0,
+    "modified": {
+      "user_id": 0,
+      "user_name": "admin",
+      "time": {
+        "$date": "2023-06-01T03:55:55.919Z"
+      }
+    },
+    "status": "active"
+  },
+  {
+  "_id": {
+    "$oid": "647d6ad1e6d166efd7cf8606"
+  },
+  "name": "huy",
+  "password": "$2b$10$jRRcKe04qJBVSdqYISQymeHKJnIiq2K2UtDYeK9jm9QD.mZIqQcKy",
+  "avatar": "1685940945257-z4387789604893_f283b24eab66f65501d8d5cc0d8bdff5.jpg",
+  "email": "huynguyen07080112@gmail.com",
+  "mobile": "1111",
+  "is_admin": 1,
+  "is_varified": 1,
+  "token": "",
+  "createdAt": {
+    "$date": "2023-06-05T04:55:45.315Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T04:57:23.210Z"
+  },
+  "__v": 0,
+  "modified": {
+    "user_id": 0,
+    "user_name": "admin",
+    "time": {
+      "$date": "2023-06-05T04:57:23.209Z"
+    }
+  },
+  "status": "active"
+},{
+    "_id": {
+      "$oid": "647d6ad1e6d166efd7cf8606"
+    },
+    "name": "huy",
+    "password": "$2b$10$jRRcKe04qJBVSdqYISQymeHKJnIiq2K2UtDYeK9jm9QD.mZIqQcKy",
+    "avatar": "1685940945257-z4387789604893_f283b24eab66f65501d8d5cc0d8bdff5.jpg",
+    "email": "huynguyen07080112@gmail.com",
+    "mobile": "1111",
+    "is_admin": 1,
+    "is_varified": 1,
+    "token": "",
+    "createdAt": {
+      "$date": "2023-06-05T04:55:45.315Z"
+    },
+    "updatedAt": {
+      "$date": "2023-06-05T04:57:23.210Z"
+    },
+    "__v": 0,
+    "modified": {
+      "user_id": 0,
+      "user_name": "admin",
+      "time": {
+        "$date": "2023-06-05T04:57:23.209Z"
+      }
+    },
+    "status": "active"
+  },{
+    "_id": {
+      "$oid": "647d6b6ce6d166efd7cf86a9"
+    },
+    "name": "đặng quốc huy",
+    "password": "$2b$10$jRRcKe04qJBVSdqYISQymeHKJnIiq2K2UtDYeK9jm9QD.mZIqQcKy",
+    "group": {
+      "id": "646eee89591e2df276332d4b",
+      "name": "boss"
+    },
+    "status": "active",
+    "content": "",
+    "avatar": "1lKnRlFhMN.jpg",
+    "email": "huynguyen@gmail.com",
+    "id_category": "641c59515cd17f1198991836",
+    "is_varified": 0,
+    "created": {
+      "user_id": 0,
+      "user_name": "admin",
+      "time": {
+        "$date": "2023-06-05T04:58:20.705Z"
+      }
+    },
+    "token": "",
+    "createdAt": {
+      "$date": "2023-06-05T04:58:20.707Z"
+    },
+    "updatedAt": {
+      "$date": "2023-06-05T14:24:01.166Z"
+    },
+    "__v": 0,
+    "modified": {
+      "user_id": 0,
+      "user_name": "dhuy782",
+      "time": {
+        "$date": "2023-06-05T14:24:01.166Z"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "647d6c281b47cb47d9f7017b"
+    },
+    "name": "nguyễn thành hưng",
+    "password": "$2b$10$jRRcKe04qJBVSdqYISQymeHKJnIiq2K2UtDYeK9jm9QD.mZIqQcKy",
+    "group": "646ed3984716de0511daea5d",
+    "status": "active",
+    "content": "",
+    "avatar": "U9batqQs7q.jpg",
+    "email": "nguyenthanhhung@gmail.com",
+    "id_category": "641c59515cd17f1198991836",
+    "is_varified": 1,
+    "created": {
+      "user_id": 0,
+      "user_name": "admin",
+      "time": {
+        "$date": "2023-06-05T05:01:28.866Z"
+      }
+    },
+    "token": "",
+    "createdAt": {
+      "$date": "2023-06-05T05:01:28.872Z"
+    },
+    "updatedAt": {
+      "$date": "2023-06-05T05:01:28.872Z"
+    },
+    "__v": 0
+  }
+]

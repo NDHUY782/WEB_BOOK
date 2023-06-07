@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "642acf7aad07a9b0e6815a5a"
+  },
+  "parent": "false",
+  "name": "Blog",
+  "status": "active",
+  "link": "/blog_detail",
+  "child": [],
+  "createdAt": {
+    "$date": "2023-04-03T13:07:06.885Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-25T03:08:44.028Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642acf8cad07a9b0e6815a61"
+  },
+  "parent": "false",
+  "name": "About Me",
+  "status": "active",
+  "link": "/about-me",
+  "child": [],
+  "createdAt": {
+    "$date": "2023-04-03T13:07:24.669Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-18T14:01:14.311Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642b9dad3232469171f834af"
+  },
+  "parent": "false",
+  "name": "Contact",
+  "status": "active",
+  "link": "/contact",
+  "child": [],
+  "createdAt": {
+    "$date": "2023-04-04T03:46:53.838Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-18T14:00:42.079Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645b4209bb593f2d0195ca98"
+  },
+  "parent": "false",
+  "name": "Log Out",
+  "status": "active",
+  "link": "/login",
+  "child": [],
+  "createdAt": {
+    "$date": "2023-05-10T07:04:41.925Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-18T13:56:38.960Z"
+  },
+  "__v": 0
+}]

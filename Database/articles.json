@@ -1,0 +1,47 @@
+[{
+  "_id": {
+    "$oid": "641bbdd3bb442e4b9a8b6899"
+  },
+  "name": "nguyen duc huy",
+  "status": "inactive",
+  "ordering": 10,
+  "content": "",
+  "avatar": [
+    "VbL0aJ9hR4.png"
+  ],
+  "id_category": "64185510482a34fce85a467c",
+  "created": {
+    "user_id": 0,
+    "user_name": "admin",
+    "time": {
+      "$date": "2023-03-23T02:47:47.468Z"
+    }
+  },
+  "__v": 0,
+  "modified": {
+    "user_id": 0,
+    "user_name": "admin",
+    "time": {
+      "$date": "2023-03-23T13:51:29.623Z"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "646224b6b44ed12681b1c332"
+  },
+  "name": "Truyên Top 1",
+  "status": "active",
+  "slug": "Truyen-Top-1",
+  "ordering": 1,
+  "content": "",
+  "avatar": "PyVgUGtrDv.jpg",
+  "id_category": "641c59515cd17f1198991836",
+  "created": {
+    "user_id": 0,
+    "user_name": "admin",
+    "time": {
+      "$date": "2023-05-15T12:25:26.883Z"
+    }
+  },
+  "__v": 0
+}]

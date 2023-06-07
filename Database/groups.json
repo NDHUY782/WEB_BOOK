@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "646eee89591e2df276332d4b"
+  },
+  "name": "boss",
+  "status": "active",
+  "ordering": 3,
+  "content": "<p>hehehehe</p>\r\n",
+  "avatar": "P3BKIlKxZh.jpg",
+  "id_category": "641c59515cd17f1198991836",
+  "created": {
+    "user_id": 0,
+    "user_name": "admin",
+    "time": {
+      "$date": "2023-05-25T05:13:45.253Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2023-05-25T05:13:45.260Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T14:23:47.010Z"
+  },
+  "__v": 0,
+  "group_acp": "yes",
+  "modified": {
+    "user_id": 0,
+    "user_name": "dhuy782",
+    "time": {
+      "$date": "2023-06-05T14:23:47.009Z"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "646ef0cfd6b054bfe43066c4"
+  },
+  "name": "Boss",
+  "status": "active",
+  "ordering": 3,
+  "content": "<p>ffff</p>\r\n",
+  "avatar": "GVjj7fY8QJ.jpg",
+  "group_acp": "yes",
+  "id_category": "641c59515cd17f1198991836",
+  "created": {
+    "user_id": 0,
+    "user_name": "admin",
+    "time": {
+      "$date": "2023-05-25T05:23:27.611Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2023-05-25T05:23:27.612Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-25T05:41:45.429Z"
+  },
+  "__v": 0,
+  "modified": {
+    "user_id": 0,
+    "user_name": "admin",
+    "time": {
+      "$date": "2023-05-25T05:41:45.429Z"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "646ef3bd2dd5a7a2ab112753"
+  },
+  "name": "ADMIN 1111",
+  "status": "active",
+  "ordering": 2,
+  "content": "<p>fcccc</p>\r\n",
+  "avatar": "nzqB9jMimF.jpg",
+  "group_acp": "yes",
+  "id_category": "641c59515cd17f1198991836",
+  "created": {
+    "user_id": 0,
+    "user_name": "admin",
+    "time": {
+      "$date": "2023-05-25T05:35:57.638Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2023-05-25T05:35:57.645Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T14:23:41.859Z"
+  },
+  "__v": 0,
+  "modified": {
+    "user_id": 0,
+    "user_name": "dhuy782",
+    "time": {
+      "$date": "2023-06-05T14:23:41.859Z"
+    }
+  }
+}]

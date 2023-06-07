@@ -1,0 +1,143 @@
+[{
+  "_id": {
+    "$oid": "643b8376ecba3f6de9612f6a"
+  },
+  "name": "Triết Học Cao Quý",
+  "status": "active",
+  "ordering": 100,
+  "content": "",
+  "avatar": "5kjeKT8KJ7.jpg",
+  "id_category": "6437902636fb749375db06d6",
+  "created": {
+    "user_id": 0,
+    "user_name": "admin",
+    "time": {
+      "$date": "2023-04-16T05:11:18.219Z"
+    }
+  },
+  "price": 30000,
+  "discount": 20,
+  "arrCheck": [],
+  "createdAt": {
+    "$date": "2023-04-16T05:11:18.225Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-14T08:09:56.827Z"
+  },
+  "__v": 0,
+  "modified": {
+    "user_id": 0,
+    "user_name": "admin",
+    "time": {
+      "$date": "2023-05-14T08:09:56.827Z"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "646097d2e87e2d1ca90f43a7"
+  },
+  "name": "Giải Tích 1",
+  "status": "active",
+  "ordering": 100,
+  "content": "",
+  "avatar": "FyEhiSf5Wp.png",
+  "id_category": "6455c4275cc8a10293fa26d4",
+  "created": {
+    "user_id": 0,
+    "user_name": "admin",
+    "time": {
+      "$date": "2023-05-14T08:12:02.072Z"
+    }
+  },
+  "price": 150000,
+  "discount": 0,
+  "arrCheck": [],
+  "createdAt": {
+    "$date": "2023-05-14T08:12:02.074Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-14T08:12:02.074Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "646097eae87e2d1ca90f43b6"
+  },
+  "name": "Giải Tích 2",
+  "status": "active",
+  "ordering": 100,
+  "content": "",
+  "avatar": "UHAXLdmYIR.jpg",
+  "id_category": "6455c4275cc8a10293fa26d4",
+  "created": {
+    "user_id": 0,
+    "user_name": "admin",
+    "time": {
+      "$date": "2023-05-14T08:12:26.048Z"
+    }
+  },
+  "price": 150000,
+  "discount": 0,
+  "arrCheck": [],
+  "createdAt": {
+    "$date": "2023-05-14T08:12:26.050Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-14T08:12:26.050Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6460982ee87e2d1ca90f43c5"
+  },
+  "name": "Vật Lý Đại Cương",
+  "status": "active",
+  "ordering": 100,
+  "content": "",
+  "avatar": "a9jHncmy3Q.jpg",
+  "id_category": "6455c4325cc8a10293fa26e1",
+  "created": {
+    "user_id": 0,
+    "user_name": "admin",
+    "time": {
+      "$date": "2023-05-14T08:13:34.109Z"
+    }
+  },
+  "price": 150000,
+  "discount": null,
+  "arrCheck": [],
+  "createdAt": {
+    "$date": "2023-05-14T08:13:34.114Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-14T08:13:34.114Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64646932cd217579e41d3b99"
+  },
+  "name": "Tư Duy Phản Biện",
+  "status": "active",
+  "ordering": 100,
+  "content": "",
+  "avatar": "SjUnCQlWu8.jpg",
+  "id_category": "6437902636fb749375db06d6",
+  "created": {
+    "user_id": 0,
+    "user_name": "admin",
+    "time": {
+      "$date": "2023-05-17T05:42:10.732Z"
+    }
+  },
+  "price": 200000,
+  "discount": 0,
+  "arrCheck": [],
+  "createdAt": {
+    "$date": "2023-05-17T05:42:10.739Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-17T05:42:10.739Z"
+  },
+  "__v": 0
+}]
